@@ -1,17 +1,16 @@
-"""
-1. Benefits of This Approach
-    - SRP (Single Responsibility Principle)
-    - Constructor only stores data
-    - Validation only validates
-2. Zero code duplication
-3. Extensible
-4. Efficient
-5. Clean & readable
-"""
-
+from typing import Union, Dict
 class Student:
+    """
+    Student class that stores marks for any number of subjects
+    and provides total and average score calculations.
+
+    Benefits:
+    - SRP (Single Responsibility Principle)
+    - Validations included
+    - Extensible to any number of subjects
+    """
     
-    def __init__(self, name, **marks):
+    def __init__(self, name : str, **marks : Dict [str,Union[int,float]]):
         self.name = name
         self.marks = marks
         self.overall_score = 0
@@ -36,6 +35,7 @@ class Student:
     def get_infomation(self):
         print(f'{self.name} scored total {self.overall_score} and Avg is {self.avg_score}')
         
+
 
 data = [
     {"name":"Pugazhendhi","tamil":90,"english":60, "maths":90, "science" : 80, "social_science" :100},
