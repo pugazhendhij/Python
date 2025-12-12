@@ -46,5 +46,9 @@
 46.How do you manage the session token in application
 47.How will work for caching in redis
 48.what is difference between sort vs sorted?
-49. what is RAG and milvus database
-50. what is pandas did you worked on this
+49.what is RAG and milvus database
+50.what is pandas did you worked on this
+51.what is python lambda filter vs reduce vs map with syntax
+52.list sort without using inbuild method?
+53.find duplicates values in list?
+54.find the second largest number in the list ?
