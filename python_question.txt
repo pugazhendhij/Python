@@ -52,5 +52,23 @@
 52.list sort without using inbuild method?
 53.find duplicates values in list?
 54.find the second largest number in the list ?
-55.what are data should contains in the JWT token and why?
-56.
+55.what are data should contains in ?the JWT token and why?
+56.how do you create custom middleware in FastAPI
+57.what is eventloop
+58.blocking manner and non blocking manner in FastAPI
+59.what is lifespan?
+60.why choose async in FastAPI
+61.what is context manager
+62.how to connect the database to the backend FastAPI
+63.why choose the async in FastAPI
+64.what is ASGI and WSGI
+65.what is path parameters and query parameters
+66.what is Pydantic
+67.how does fastapi validate data?
+68.Difference between def and async def
+69.how do you handle the custom erros?
+70.Can we create global exception handlers?
+71.what is a coroutine
+72.Async in FastAPI (Internal Flow)
+73.what is difference between the concurrency and async
+74.
