@@ -66,9 +66,15 @@
 66.what is Pydantic
 67.how does fastapi validate data?
 68.Difference between def and async def
-69.how do you handle the custom erros?
+69.how do you handle the erros in fastapi?
 70.Can we create global exception handlers?
 71.what is a coroutine
 72.Async in FastAPI (Internal Flow)
 73.what is difference between the concurrency and async
-74.
+74.What is background tasks 
+75.how to handle the multimedia in fastapi
+76.how do you handle the 10 million of record in Django
+77.why choose the FastAPI over flask
+78.what are the issue faced in recent projects and how did you reslove it?
+79.what are the database you use can you explain it details way
+
